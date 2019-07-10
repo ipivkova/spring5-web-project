@@ -15,6 +15,8 @@ public class Publisher {
     private String state;
     private int zip;
 
+
+
     public Publisher(String name, String city, String state, int zip) {
         this.name = name;
         this.city = city;
@@ -22,11 +24,14 @@ public class Publisher {
         this.zip = zip;
     }
 
-    public String getname() {
+    public Publisher() {
+    }
+
+    public String getName() {
         return name;
     }
 
-    public void setname(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
